@@ -105,7 +105,7 @@ if __name__ == '__main__':
             # construct able_mesh input
             xlen = case["lengthScale"]*case["numAct"]
             ylen = case["lengthScale"]
-            zlen = case["lengthScale"]
+            zlen = case["lengthScale"]*0.5
             command = ["aprepro", "-c#",
                        "xlen={x}".format(x=xlen),
                        "ylen={y}".format(y=ylen),

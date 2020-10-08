@@ -21,7 +21,7 @@
 {ECHO}        nacelle_area: 8.0
 {ECHO}        air_density: 1.225
 {ECHO}        epsilon: {epsilon}
-{ECHO}        turbine_base_pos: [ {0.5*length*_k}, {0.5*length}, 0.0 ]
+{ECHO}        turbine_base_pos: [ {(0.5+_j)*length}, {0.5*length}, 0.0 ]
 {ECHO}        restart_filename: "blah"
 {ECHO}        fast_input_filename: "nrel5mw_{_k}_{meshsize}.fst"
 {ECHO}        turb_id: {_k}
